@@ -5,9 +5,11 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Stars
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
+    <div>
       <h1> 3D Developer Portfolio</h1>
-    </>
+    </div>
+    </BrowserRouter>
   )
 }
 
